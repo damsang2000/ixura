@@ -34,11 +34,15 @@ em {
 .header--alt .menu-depth-0 span {
   color: #3b6679 !important;
 }
-.menu-link>span{
-    font-family: zefafont_regular !important;
-    font-size: 16px;
+.menu-link > span {
+  font-family: zefafont_regular !important;
+  font-size: 16px;
 }
-.o-button__text{
-    font-family: zefafont_regular !important;
-    font-size: 16px !important;
+.o-button__text {
+  font-family: zefafont_regular !important;
+  font-size: 16px !important;
+}
+h2 {
+  font-size: 70px !important;
+  line-height: 80px !important;
 }
