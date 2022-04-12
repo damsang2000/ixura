@@ -46,3 +46,19 @@ h2 {
   font-size: 70px !important;
   line-height: 80px !important;
 }
+p {
+  line-height: 35px !important;
+}
+h3 {
+  font-size: 20px !important;
+}
+.c-featured-items__title {
+  font-size: 20px !important;
+}
+
+.c-col-content-col-image__title {
+  line-height: 35px !important;
+}
+.is-active {
+  display: none !important;
+}
