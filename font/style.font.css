@@ -3,9 +3,9 @@
   src: url("./Lovelace-Regular.ttf");
 }
 @font-face {
-    font-family: zefafont_italic;
-    src: url("./Lovelace-Italic.ttf");
-  }
+  font-family: zefafont_italic;
+  src: url("./Lovelace-Italic.ttf");
+}
 @font-face {
   font-family: poppins;
   src: url("./Poppins/Poppins-Light.ttf");
@@ -19,7 +19,7 @@ h1,
 h2,
 h3,
 h4 {
-  font-family:zefafont_regular !important;
+  font-family: zefafont_regular !important;
   font-weight: normal !important;
 }
 h4 {
@@ -28,6 +28,16 @@ h4 {
 .c-video__icon-play {
   display: none !important;
 }
-em{
-    font-family: zefafont_italic !important;
+em {
+  font-family: zefafont_italic !important;
+}
+.header--alt .menu-depth-0 span {
+  color: #3b6679 !important;
+}
+.menu-link>span{
+    font-family: zefafont_regular !important;
+    font-size: 16px;
+}
+.o-button__text{
+    font-family: zefafont_regular !important;
 }
