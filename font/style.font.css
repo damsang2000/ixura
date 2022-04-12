@@ -50,15 +50,19 @@ p {
   line-height: 35px !important;
 }
 h3 {
-  font-size: 20px !important;
+  font-size: 35px !important;
 }
 .c-featured-items__title {
-  font-size: 20px !important;
+  font-size: 35px !important;
 }
 
 .c-col-content-col-image__title {
   line-height: 35px !important;
 }
-.is-active {
+/* .is-active {
   display: none !important;
+} */
+.has-submenu-visible {
+  visibility: hidden !important;
+  background-color: transparent !important;
 }
