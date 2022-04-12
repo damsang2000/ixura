@@ -66,3 +66,9 @@ h3 {
   visibility: hidden !important;
   background-color: transparent !important;
 }
+.c-slider-horizontal__book-now:hover {
+  background-color: #3b6679 !important;
+}
+.c-slider-horizontal__slide-title:hover {
+  color: #3b6679 !important;
+}
