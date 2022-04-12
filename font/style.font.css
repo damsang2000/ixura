@@ -1,6 +1,6 @@
 @font-face {
   font-family: zefaFont;
-  src: url("./Zetafonts\ -\ Lovelace\ Text\ Bold\ Italic.otf");
+  src: url("./Zetafonts_Lovelace_Text_Regular.otf");
 }
 @font-face {
   font-family: poppins;
@@ -8,10 +8,19 @@
 }
 p {
   font-family: poppins !important;
+  font-size: 16px !important;
+  color: #000000 !important;
 }
 h1,
 h2,
 h3,
 h4 {
   font-family: zafafont !important;
+  font-weight: normal !important;
+}
+h4 {
+  color: #fff !important;
+}
+.c-video__icon-play {
+  display: none !important;
 }
