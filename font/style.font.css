@@ -1,0 +1,17 @@
+@font-face {
+  font-family: zefaFont;
+  src: url("./Zetafonts\ -\ Lovelace\ Text\ Bold\ Italic.otf");
+}
+@font-face {
+  font-family: poppins;
+  src: url("./Poppins/Poppins-Light.ttf");
+}
+p {
+  font-family: poppins !important;
+}
+h1,
+h2,
+h3,
+h4 {
+  font-family: zafafont !important;
+}
