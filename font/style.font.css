@@ -1,7 +1,11 @@
 @font-face {
-  font-family: zefaFont;
-  src: url("./Zetafonts_Lovelace_Text_Regular.otf");
+  font-family: zefafont_regular;
+  src: url("./Lovelace-Regular.ttf");
 }
+@font-face {
+    font-family: zefafont_italic;
+    src: url("./Lovelace-Italic.ttf");
+  }
 @font-face {
   font-family: poppins;
   src: url("./Poppins/Poppins-Light.ttf");
@@ -15,7 +19,7 @@ h1,
 h2,
 h3,
 h4 {
-  font-family: zafafont !important;
+  font-family:zefafont_regular !important;
   font-weight: normal !important;
 }
 h4 {
@@ -23,4 +27,7 @@ h4 {
 }
 .c-video__icon-play {
   display: none !important;
+}
+em{
+    font-family: zefafont_italic !important;
 }
