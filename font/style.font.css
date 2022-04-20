@@ -3,15 +3,23 @@
   src: url("./Lovelace-Regular.ttf");
 }
 @font-face {
+  font-family: IvyMode;
+  src: url("./IvyMode-Regular.ttf");
+}
+@font-face {
   font-family: zefafont_italic;
   src: url("./Lovelace-Italic.ttf");
+}
+@font-face {
+  font-family: Montserrat;
+  src: url("./Montserrat-VariableFont_wght.ttf");
 }
 @font-face {
   font-family: poppins;
   src: url("./Poppins/Poppins-Light.ttf");
 }
 p {
-  font-family: poppins !important;
+  font-family: Montserrat !important;
   font-size: 16px !important;
   color: #000000 !important;
 }
@@ -19,7 +27,7 @@ h1,
 h2,
 h3,
 h4 {
-  font-family: zefafont_regular !important;
+  font-family: IvyMode !important;
   font-weight: normal !important;
 }
 h4 {
@@ -35,14 +43,17 @@ em {
   color: #ad750d !important;
 }
 .header .menu-item-depth-0 > a {
-  color: #494949 !important;
+  color: #fff !important;
 }
 .menu-link > span {
-  font-family: zefafont_regular !important;
+  font-family: IvyMode !important;
   font-size: 16px;
 }
+.js-modal-booking__open {
+  font-family: IvyMode !important;
+}
 .o-button__text {
-  font-family: zefafont_regular !important;
+  font-family: IvyMode !important;
   font-size: 16px !important;
 }
 h2 {
