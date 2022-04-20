@@ -32,7 +32,10 @@ em {
   font-family: zefafont_italic !important;
 }
 .header--alt .menu-depth-0 span {
-  color: #3b6679 !important;
+  color: #ad750d !important;
+}
+.header .menu-item-depth-0 > a {
+  color: #494949 !important;
 }
 .menu-link > span {
   font-family: zefafont_regular !important;
@@ -67,11 +70,11 @@ h3 {
   background-color: transparent !important;
 }
 .c-slider-horizontal__book-now {
-  background-color: #3b6679 !important;
+  background-color: #ad750d !important;
 }
 .c-slider-horizontal__book-now:hover {
-  background-color: #8B6C4C !important;
+  background-color: #494949 !important;
 }
 .c-slider-horizontal__slide-title:hover {
-  color: #3b6679 !important;
+  color: #ad750d !important;
 }
